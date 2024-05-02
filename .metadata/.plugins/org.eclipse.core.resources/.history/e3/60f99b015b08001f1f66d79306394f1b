@@ -1,0 +1,40 @@
+package com.spring1.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.spring1.dao.SampleDAO;
+import com.spring1.dto.Sample;
+
+@Service
+public class SampleServiceImpl implements SampleService {
+
+	@Autowired
+	private SampleDAO sampleDAO;
+	
+	@Override
+	public Sample getSampleList() {
+		return SampleDAO.getSampleList();
+
+	
+	@Override
+	public Sample getSample(int num) {
+		return SampleDAO.getSample(num);
+	}
+
+	@Override
+	public void insSample(Sample sample) {
+		SampleDAO.insSample(sample);
+	}
+
+	@Override
+	public void upSample(Sample sample) {
+		SampleDAO.upSample(sample);
+	}
+
+	@Override
+	public void delSample(Sample sample) {
+		SampleDAO.delSample(sample);
+	}
+
+}

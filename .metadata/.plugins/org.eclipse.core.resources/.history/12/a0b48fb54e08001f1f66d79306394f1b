@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC 
+"-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="sample">
+	<select id="getSampleList" resultType="com.spring1.dto.Sample">	<!-- id = 메소드명 -->
+		select * from sample	<!-- Sql구문 넣기. ★세미콜론(;) 넣지 않음★ -->
+	</select>
+	<select id="getSample">
+		select * from sample where num=#{num}
+	</select>
+	<insert id="insSample" parameterType="com.spring1.dto.Sample">	<!-- parameterType=은 생략 가능함. 위에 namespace에서 sample의 객체임을 말했기 때문에 -->
+		insert into sample values (#{num}, #{title}, #{res});
+	</insert>
+	<update id="upSample">
+		update sample set title=#{title} where num=#{num});
+	</update>
+</mapper>
+<!-- namespace나 해당 명령의 id는 중복되면 절대 안됨 -->

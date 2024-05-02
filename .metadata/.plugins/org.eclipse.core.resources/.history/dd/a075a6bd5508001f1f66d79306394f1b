@@ -1,0 +1,36 @@
+package com.spring1.dao;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.spring1.dto.Sample;
+
+public class SampleDAOImpl implements SampleDAO {
+	private SqlSession sqlSession;	//sqlSession : MyBatis를 SQL로 바꿔줌
+
+	@Override
+	public Sample getSampleList() {
+		return sqlSession.selectList("sample.getSampleList");	//.selectList : 리스트 불러오기
+	}
+	
+	@Override
+	public Sample getSample(int num) {
+		return sqlSession.selectOne("sample.getSample", num);	//.selectOne : 값 하나만 불러오기
+	}
+
+	@Override
+	public void insSample(Sample sample) {
+		sqlSession.insert("sample.insSample", sample);
+	}
+
+	@Override
+	public void upSample(Sample sample) {
+		sqlSession.update("sample.upSample", sample);
+	}
+
+	@Override
+	public void delSample(Sample sample) {
+		sqlSession.delete("sample.delSample", sample);
+	}
+	
+	
+}
