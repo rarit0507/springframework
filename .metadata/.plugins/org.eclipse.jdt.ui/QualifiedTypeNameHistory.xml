@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.apache.ibatis.javassist.tools.reflect.Sample"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.javassist.tools.rmi.Sample"/>
+    <fullyQualifiedTypeName name="com.spring2.dto.Sample"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NegativeOrZero"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.spring1.dto.Market"/>
+</qualifiedTypeNameHistroy>

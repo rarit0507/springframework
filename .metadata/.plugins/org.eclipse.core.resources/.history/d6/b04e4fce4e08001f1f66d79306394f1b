@@ -1,6 +1,0 @@
-package com.spring1.dto;
-
-@Data
-public class Sample2 {
-
-}
