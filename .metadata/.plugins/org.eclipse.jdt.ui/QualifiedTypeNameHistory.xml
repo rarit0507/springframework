@@ -5,9 +5,20 @@
     <fullyQualifiedTypeName name="com.spring2.dto.Sample"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="javax.validation.constraints.NegativeOrZero"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="com.spring1.dto.Market"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="com.spring1.dto.Store"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="javax.inject.Qualifier"/>
+    <fullyQualifiedTypeName name="com.spring1.test.TestQualifier"/>
+    <fullyQualifiedTypeName name="com.spring1.dao.SampleDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="com.azul.tooling.in.Model"/>
+    <fullyQualifiedTypeName name="org.apache.maven.model.Model"/>
+    <fullyQualifiedTypeName name="com.spring1.dto.Sample"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.spring1.dto.Market"/>
 </qualifiedTypeNameHistroy>
